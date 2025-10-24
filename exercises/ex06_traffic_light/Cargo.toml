@@ -1,0 +1,6 @@
+[package]
+name = "enums_and_pattern_matching_a_traffic_light_simulator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "structs_and_methods_a_simple_bank_account"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

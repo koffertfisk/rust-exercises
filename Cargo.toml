@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "exercises/ex01_hello_world",
+    "exercises/ex02_calculator",
+    "exercises/ex03_guessing_game",
+    "exercises/ex04_ownership_borrowing",
+    "exercises/ex05_bank_account",
+    "exercises/ex06_traffic_light",
+    "exercises/ex07_statistics",
+    "exercises/ex08_mingrep",
+    "exercises/ex09_threaded_counter",
+    "exercises/ex10_generic_min",
+    "exercises/ex11_logger",
+    "exercises/ex12_summary_trait",
+    "exercises/ex13_json_parser"
+]

@@ -1,0 +1,61 @@
+# === Rust ===
+/target/
+**/target/
+
+# Ignore Cargo.lock in libraries
+/Cargo.lock
+**/Cargo.lock
+
+# === IDEs and editors ===
+# VS Code
+.vscode/
+
+# IntelliJ / RustRover
+.idea/
+*.iml
+
+# Other editors
+*.swp
+*.swo
+*~
+
+# === OS-specific ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.bak
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.temp
+*.out
+
+# === Backup / build artifacts ===
+*.old
+*.orig
+
+# === By-products ===
+# If you're using tools like cargo-audit, clippy, etc.
+audit.json
+clippy.txt
+
+# === Coverage / test / benchmarking ===
+/coverage/
+/grcov/
+/tarpaulin-report.html
+
+# === Git ===
+.git/
+
+# === Optional: ignore compiled binaries if you build them outside of /target
+*.exe
+*.dll
+*.so
+*.dylib
